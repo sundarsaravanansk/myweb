@@ -7,7 +7,7 @@ const Contactcontent = () => {
         <>
         
         <div className='flex flex-wrap -mx-4'>
-                    <div className='w-full items-center md:w-2/4 md:h-[100vh] flex-auto px-4 ver-cen'>
+                    <div className='w-full items-center md:w-2/4 md:h-[100vh] flex-auto px-4 ver-cen ' >
                     <Image
                             src={"/Intro/Logo/Location.png"}
                             alt='intro'
@@ -18,7 +18,7 @@ const Contactcontent = () => {
                    
                        
                     </div>
-                    <div className='w-full md:w-2/4 md:h-[100vh] flex-auto ver-cen'>
+                    <div className='w-full md:w-2/4 md:h-[100vh] flex-auto ver-cen ' >
                         <div className="text-white">
                     <div className="mb-4">
                             <h2 className='font-h2-lg'>CONTACT</h2>
@@ -41,7 +41,7 @@ const Contactcontent = () => {
                         </div>
                         </div>
                     
-                        <div className='mt-4 '>
+                        <div className='mt-4 ' id='contact'>
                             <div className='flex items-center gap-2'>
                             <div>
                             <Image 
