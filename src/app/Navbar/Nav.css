@@ -8,18 +8,20 @@
 .bgcl:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 2cap 0 rgba(214, 203, 203, 0.414);
 }
-.bgcl::before{
-    background: linear-gradient(to left, #FC00FF, #00DBDE);
-    transition: 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    border-radius: 40px;
-    z-index: 1;
-
+@media screen and (min-width : 1024px){
+    .bgcl::before{
+        background: linear-gradient(to left, #FC00FF, #00DBDE);
+        transition: 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        border-radius: 40px;
+        z-index: 1;
+    
+    }
 }
 
 .bgcl:hover::before{
