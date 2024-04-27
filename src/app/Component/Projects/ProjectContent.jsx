@@ -40,7 +40,7 @@ const ProjectContent = () => {
                         alt={"Walkinternation"}
                         width={200}
                         height={217}
-                        className="w-[320px] h-[450px] "
+                        className="w-[350px] h-[370px]  lg:w-[330px] lg:h-[450px] "
                         />
                     </SwiperSlide>
                     <SwiperSlide>Slide 2</SwiperSlide>
