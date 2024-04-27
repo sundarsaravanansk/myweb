@@ -62,8 +62,9 @@ const Navbar = () => {
                                         className='w-[30px] h-[auto]'
                                     />
                                 </button>
+                              
                             </div>
-
+                        
                             <div className='hidden lg:flex items-center'>
                                 <ul className='lg:flex lg:gap-10 text-[#fff] font-[500]'>
 
@@ -87,7 +88,23 @@ const Navbar = () => {
 
                         </div>
                         <div className={`hide ${open ? "show" : ""}`}>
+                        <div className='lg:hidden items-center'>
+                                <ul className='text-[#fff] font-[500] mt-5 text-lg'>
 
+                                    <li className='pb-5'>
+                                        <Link href="#About" onClick={() => { setOpen(!open) }}>About</Link>
+                                    </li>
+                                    <li className='pb-5'>
+                                        <Link href="#Skill" onClick={() => { setOpen(!open) }}>Skill</Link>
+                                    </li>
+                                    <li className='pb-5'>
+                                        <Link href="#Projects" onClick={() => { setOpen(!open) }}>Projects</Link>
+                                    </li>
+                                    <li className='pb-5'>
+                                        <Link href="#contact" onClick={() => { setOpen(!open) }}>Contact</Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
