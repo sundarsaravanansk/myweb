@@ -76,7 +76,7 @@ const Navbar = () => {
                                         >About</Link>
                                     </li>
                                     <li>
-                                        <Link href="#Skill">Skill</Link>
+                                        <Link href="#Skill">Skills</Link>
                                     </li>
                                     <li>
                                         <Link href="#Projects">Projects</Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
                                         <Link href="#About" onClick={() => { setOpen(!open) }}>About</Link>
                                     </li>
                                     <li >
-                                        <Link href="#Skill" onClick={() => { setOpen(!open) }}>Skill</Link>
+                                        <Link href="#Skill" onClick={() => { setOpen(!open) }}>Skills</Link>
                                     </li>
                                     <li >
                                         <Link href="#Projects" onClick={() => { setOpen(!open) }}>Projects</Link>
