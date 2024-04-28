@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>New Project</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(77,111.5,-196.102,135.425,86.5,74)">
+			<stop offset="0" stop-color="#32b1c1"/>
+			<stop offset="1" stop-color="#14c6b7"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #242938 } 
+		.s1 { fill: url(#g1) } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0 60c0-33.1 26.9-60 60-60h136c33.1 0 60 26.9 60 60v136c0 33.1-26.9 60-60 60h-136c-33.1 0-60-26.9-60-60z"/>
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m83 110q9-36 45-36c36 0 40.5 27 58.5 31.5q18 4.5 31.5-13.5-9 36-45 36c-36 0-40.5-27-58.5-31.5q-18-4.5-31.5 13.5zm-45 54q9-36 45-36c36 0 40.5 27 58.5 31.5q18 4.5 31.5-13.5-9 36-45 36c-36 0-40.5-27-58.5-31.5q-18-4.5-31.5 13.5z"/>
+	</g>
+</svg>

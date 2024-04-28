@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #e14e1d } 
+		.s1 { fill: #ffffff } 
+		.s2 { fill: #ebebeb } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0 60c0-33.1 26.9-60 60-60h136c33.1 0 60 26.9 60 60v136c0 33.1-26.9 60-60 60h-136c-33.1 0-60-26.9-60-60z"/>
+		<path id="Layer" class="s1" d="m48 38l8.6 96.6h110.7l-3.7 41.4-35.6 9.7-35.6-9.7-2.4-26.6h-32.1l4.6 51.3 65.5 18.2 65.5-18.2 8.7-98h-116.4l-2.9-32.8h122.1 0.1l2.9-31.9z"/>
+		<path id="Layer" class="s2" d="m128 38h-80l8.6 96.6h71.4v-31.9h-42.2l-2.9-32.8h45.1z"/>
+		<path id="Layer" class="s2" d="m128 185.6v0.1l-35.6-9.7-2.4-26.6h-32.1l4.6 51.3 65.5 18.2z"/>
+	</g>
+</svg>
