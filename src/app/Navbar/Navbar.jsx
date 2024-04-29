@@ -114,7 +114,7 @@ const Navbar = () => {
                     <h1>CV</h1>
                     </div> */}
                    <div>
-                   <a href="/cv/SUNDAR RESUME.pdf" download>
+                   <a href="/cv/SUNDAR RESUME.pdf">
                     <Image 
                     src={"/Intro/Logo/cv.png"} 
                     alt='cv' 
