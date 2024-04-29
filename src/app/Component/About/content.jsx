@@ -38,7 +38,20 @@ const Content = () => {
                         <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-5 '>
                             <p>My main stack currently is React/Next.js in combination with Tailwind CSS </p>
                         </div>
-                    
+                        <div className="mt-2 lg:mt-5">
+                        <div className="">
+                      
+                            <a href="/public/cv/SUNDAR RESUME.pdf" download className=" px-2 py-2 bg-blue-600 hover:bg-blue-800 rounded">
+                            <Image 
+                               src={"/Intro/Logo/download.svg"} 
+                               alt="download" 
+                               width={50} 
+                               height={50} 
+                               className="w-[30px] h-[18px]  inline-block"
+                               />
+                              <span className="pr-2">RESUME</span></a>
+                        </div> 
+                        </div>
                     </div>
 
 
@@ -51,3 +64,4 @@ const Content = () => {
 }
 
 export default Content;
+
