@@ -1,0 +1,169 @@
+/* styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+  overflow-x: hidden;
+  color: #fff;
+}
+.main-wrapper{
+  overflow-x: hidden;
+}
+.Crow{
+  @apply 
+  flex
+  flex-wrap
+ 
+  }
+  .Ccol-1{
+    @apply
+    flex-auto
+   w-1/12
+}
+  .Ccol-2{
+    @apply
+    flex-auto
+   w-1/6
+}
+ 
+    .Ccol-3{
+      @apply 
+      flex-auto
+        w-1/4
+      
+      }
+      .Ccol-4{
+        @apply 
+        flex-auto
+          w-1/3
+        
+        }
+        .Ccol-5{
+          @apply
+          flex-auto
+         w-5/12
+      }
+        .Ccol-6{
+          @apply 
+          w-2/4
+          flex-auto
+          
+          }
+
+           
+       
+      
+    .Ccol-7{
+      @apply
+      flex-auto
+     w-7/12
+  }
+  .Ccol-8{
+    @apply
+    flex-auto
+   w-8/12
+}
+.Ccol-9{
+  @apply
+  flex-auto
+ w-9/12
+}
+.Ccol-10{
+  @apply
+  flex-auto
+ w-10/12
+}
+.Ccol-11{
+  @apply
+  flex-auto
+ w-11/12
+}
+.Ccol-12{
+  @apply
+  flex-auto
+ w-full
+}
+.ver-cen{
+  @apply
+  flex
+  flex-col
+  justify-center
+}
+.ver-center{
+  @apply
+  absolute
+  top-2/4
+  left-2/4
+  -translate-x-1/2
+  -translate-y-1/2
+  mt-0
+  mb-0
+  ml-auto
+  mr-auto
+}
+.vertical-end{
+  @apply
+ flex
+ flex-col
+ justify-end
+ 
+  }
+.DCimg{
+  @apply
+  w-full
+  h-auto
+}
+.font-h1-lg{
+  font-size: clamp(30px, 6vw, 3rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.bg-video{
+  overflow: hidden;
+}
+/* 
+html{
+  scroll-behavior: smooth;
+} */
+
+
+.font-h1-lg span{
+  padding-left: 5px;
+  display: inline-block;
+}
+.Subtitle{
+  font-size: clamp(18px, 2vw, 1.2rem);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.font-h2-lg{
+  font-size: clamp(24px, 6vw, 2rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+body, p, span, ul, ol{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
