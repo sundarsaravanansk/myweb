@@ -14,7 +14,7 @@ const IntroContent = () => {
         {
         Introdata.map(data => {
             return (
-            <div className='flex flex-wrap -mx-4 flex-col-reverse md:flex-row panel'>
+            <div className='flex flex-wrap -mx-4 flex-col-reverse md:flex-row panel' key={data.id}>
                 <div className='md:w-2/4 w-[100%] md:h-[100vh] flex-auto ver-cen'>
                     <div className='text-[#fff]'>
                         <div className="relative">
